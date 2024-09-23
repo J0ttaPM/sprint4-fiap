@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios - Ética e Conduta Profissional</title>
+    <!-- Link para o Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .desafio-header {
+            margin-bottom: 30px;
+        }
+
+        .desafio-card {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .desafio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-custom {
+            background-color: #57b846;
+            color: white;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #45a239;
+        }
+
+        .card-body-icon {
+            font-size: 2.5rem;
+            color: #007bb5;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .desafio-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #007bb5;
+        }
+
+        .desafio-text {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .progress-bar-custom {
+            background-color: #57b846;
+        }
+
+        .progress-title {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">Conecta +</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- Link para o Hub -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="hub.html">Hub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <!-- Link para Desafios -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="desafios.html">Desafios</a>
+                    </li>
+                    <!-- Link para o Chat Bot -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="bot.html">Chat Bot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="VR.html">VR</a>
+                    </li>
+                    <!-- Dropdown do Perfil -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Perfil
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="configconta.html">Configurações de Conta</a></li>
+                            <li><a class="dropdown-item" href="#">Idioma</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sair</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo de Desafios -->
+    <div class="container desafios-section">
+        <h1 class="text-center text-primary mb-5">Desafios de Ética e Conduta Profissional</h1>
+        <div class="row g-4">
+            <!-- Desafio 1 -->
+            <div class="col-md-6">
+                <div class="card desafio-card">
+                    <div class="card-body text-center">
+                        <div class="card-body-icon">⚖️</div>
+                        <h5 class="desafio-title">Dilema Ético: Sigilo Profissional</h5>
+                        <p class="desafio-text">Você descobre informações confidenciais sobre a empresa em que trabalha. O que você faz?</p>
+                        <a href="#" class="btn btn-custom">Resolver</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desafio 2 -->
+            <div class="col-md-6">
+                <div class="card desafio-card">
+                    <div class="card-body text-center">
+                        <div class="card-body-icon">💼</div>
+                        <h5 class="desafio-title">Transparência no Trabalho</h5>
+                        <p class="desafio-text">Você percebe que um colega está sendo desonesto em um relatório financeiro. Como você age?</p>
+                        <a href="#" class="btn btn-custom">Resolver</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desafio 3 -->
+            <div class="col-md-6">
+                <div class="card desafio-card">
+                    <div class="card-body text-center">
+                        <div class="card-body-icon">🕵️</div>
+                        <h5 class="desafio-title">Conflito de Interesses</h5>
+                        <p class="desafio-text">Você é convidado a participar de um projeto que beneficia diretamente um familiar. Qual a sua atitude?</p>
+                        <a href="#" class="btn btn-custom">Resolver</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desafio 4 -->
+            <div class="col-md-6">
+                <div class="card desafio-card">
+                    <div class="card-body text-center">
+                        <div class="card-body-icon">📈</div>
+                        <h5 class="desafio-title">Uso Responsável de Recursos</h5>
+                        <p class="desafio-text">A empresa fornece recursos para um projeto, mas você percebe desperdício. O que você faz?</p>
+                        <a href="#" class="btn btn-custom">Resolver</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desafio 5 -->
+            <div class="col-md-6">
+                <div class="card desafio-card">
+                    <div class="card-body text-center">
+                        <div class="card-body-icon">📜</div>
+                        <h5 class="desafio-title">Assinatura de Documentos</h5>
+                        <p class="desafio-text">Você é solicitado a assinar um documento com informações que não conhece. O que você faz?</p>
+                        <a href="#" class="btn btn-custom">Resolver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts do Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
